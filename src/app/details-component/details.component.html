@@ -1,0 +1,51 @@
+<section>
+  <h2>{{prefix}}れいぶん</h2>
+  <p>１．「あなたは」{{name}}ですか</p>
+  <p>はい、「わたしわ」{{job}}では　ありません</p>
+  <p>２．{{name}}{{job}}ですか</p>
+  <p>いいえ　{{name}}です　ありません</p>
+  <p>３．あのかたどなたですか</p>
+  <p>{{name}}の{{job}}</p>
+  <p>山田んわ富士大学生の教師ですか</p>
+  <p>はい、山田んです、薛さんも富士大学生の教師です</p>
+  <!-- 第一个是带有模板引用变量 #newItem 的 HTML <input> ，用户可在其中键入条目名称。
+    用户键入到 <input> 中的内容都存储在 #newItem 变量中 -->
+  <label>Add an item:<input #newItem/></label>
+  <button (click)="addNewItem(newItem.value)">parentAndChildConnect</button>
+</section>
+<section><img [style.width.%]="50" src="{{url}}"></section>
+<section>
+  <div class="sentance">
+    <h2>{{title}}</h2>
+    <p>
+      文型（ぶんけい）
+    </p>
+    <p>
+      1.わたしわマイク・ピアザ
+    </p>
+    <p>
+      2.セントスさんわ　がくせいじゃありません
+    </p>
+    <p>
+      ３．ミラーさんわ　かいしゃいん　ですが
+    </p>
+    <p>
+      ４．やまだんわ　かいしゃいです
+    </p>
+  </div>
+  <div class="sentance">
+    <h2>初めましで</h2>
+    <!-- Angular 安全导航运算符 ? 可以对在属性路径中出现 null 和 undefined 值进行保护。
+      在这里，如果 item 为 null ，它可以防止视图渲染失败。 -->
+    <p>
+      {{items?.name}}：おはよございます,{{items?.name}}：おはよございます、佐藤ん、こちらわ　薛さんです
+    </p>
+    <p>
+      薛さん：初めましで、chengdongーです、{{items?.description}}な来ました、どうぞよるしくお願ういします。
+    </p>
+    <p>
+      佐藤：佐藤わい子です、どうぞよるしくお願ういします
+    </p>
+  </div>
+</section>
+<p>我是子组件，父组件传递的值是："{{inputString}}"</p>

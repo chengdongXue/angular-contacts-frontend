@@ -1,0 +1,19 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.47mm" height="8.47mm" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #153c93;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+    <symbol id="New_Symbol_54" data-name="New Symbol 54" viewBox="0 0 24 24">
+      <path class="cls-1" d="M18.28,9.7l-6,6-6-6L7.69,8.3l4.59,4.59,4.6-4.59Z"/>
+      <rect class="cls-2" width="24" height="24"/>
+    </symbol>
+  </defs>
+  <title>i-arrow-bottom-blue</title>
+  <use id="New_Symbol_54-3" data-name="New Symbol 54" width="24" height="24" xlink:href="#New_Symbol_54"/>
+</svg>

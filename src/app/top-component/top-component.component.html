@@ -1,0 +1,36 @@
+<header-component [people]="people_arr"></header-component>
+
+<section [ngStyle]="sectionStyles">
+	<div *ngFor="let people of people_array; let i = index">
+		<ul class="ul_flex">
+			<a [class.people_name]="people_arr[0]" [innerHTML]="people?.name" routerLink="/markting" routerLinkActive="active"></a>
+			<li [class.people_job]="people_arr[1]" [innerHTML]="people?.country"></li>
+			<li [class.people_country]="people_arr[1]" [innerHTML]="people?.job"></li>
+			<img [src]="url"/>
+			<button (click)="showpersoanl(people)">{{description}}</button>
+		</ul>
+	</div>
+</section>
+
+<section [ngStyle]="sectionStyles">
+	<ul style="list-style:none;background-color:white;border-radius: 10px;">
+		<li *ngFor="let item of items">
+			{{item}}
+		</li>
+	</ul>
+</section>
+
+<!-- 事件绑定 (newItemEvent)='addItem($event)' 告诉 Angular 将子组件的 newItemEvent 事件连接到父组件中的方法 addItem() 
+	以及将子组件通知父组件的事件作为 addItem() 的参数。换句话说，这是实际传递数据的地方。
+	$event 包含用户在子模板 UI 中键入到 <input> 中的数据。 -->
+<detail-component *ngIf="showOrHideDetails" 
+	(newItemEvent)="addItem($event)" 
+	prefix="日本語"
+	[items]="people_entity"
+	[name]="people_entity.name" 
+	[job]="people_entity.job" 
+	[country]="people_entity.country"
+	[(inputString)]="inputString">
+</detail-component>
+
+<button (click)="onValueChangeClick()">改变值</button>

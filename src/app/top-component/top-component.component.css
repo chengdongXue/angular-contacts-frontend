@@ -1,0 +1,40 @@
+p {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    font-family: Lato;
+    font-size:20px;
+    color: greenyellow;
+  }
+  
+  .people_name {
+    color: red;
+    list-style: none;
+  }
+  
+  .people_job {
+    color: green;
+    list-style: none;
+  }
+  
+  .people_country {
+    color: goldenrod;
+    list-style: none;
+  }
+  
+  .ul_flex {
+    display:block;
+    float: left;
+    padding:20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    height:25px;
+    line-height: 20px;
+    padding:0 20px;
+    background-color:aliceblue;
+  }
+  

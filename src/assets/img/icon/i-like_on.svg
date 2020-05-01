@@ -1,0 +1,19 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f3a89;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+    <symbol id="star_16" data-name="star_16" viewBox="0 0 16 16">
+      <path class="cls-1" d="M8,11.48,3.88,14,5,9.29,1.34,6.14l4.79-.41L8,1.32,9.88,5.73l4.78.41L11,9.29,12.13,14Z"/>
+      <rect class="cls-2" width="16" height="16"/>
+    </symbol>
+  </defs>
+  <title>i-star_on</title>
+  <use width="16" height="16" xlink:href="#star_16"/>
+</svg>

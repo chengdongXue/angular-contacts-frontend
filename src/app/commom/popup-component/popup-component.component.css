@@ -1,0 +1,53 @@
+.pop-wrapper {
+    position: relative;
+}
+
+.pop-box {
+    background: #000;
+    border-radius: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 24px;
+    position: absolute;
+    right: -webkit-calc(100% - 116px);
+    right: calc(100% - 116px);
+    top: 40px;
+    width: 232px;
+    z-index: 1;
+}
+
+.pop-box:hover {
+    cursor: default;
+}
+
+.pop-box p {
+    text-align: center;
+}
+
+.pop-box::after {
+    border: 8px solid transparent;
+    border-bottom: 8px solid #000;
+    content: '';
+    left: -webkit-calc(100% - 116px);
+    left: calc(100% - 116px);
+    position: absolute;
+    top: -16px;
+}
+
+.confirm-btn {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 24px;
+}

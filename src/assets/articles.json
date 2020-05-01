@@ -1,0 +1,144 @@
+[
+    {
+      "name": "ReactJS 与 VueJS：两种最流行的前端 JS 框架之战",
+      "url": "https://segmentfault.com/a/1190000022319334",
+      "category": "hotNew"
+    },{
+        "name": "新人成长：新人在前端团队如何快速成长为技术骨干",
+        "url": "https://segmentfault.com/a/1190000022294415",
+        "category": "hotNew"
+      },{
+        "name": "技术管理：如何带领管理少于 10 人的前端小团队",
+        "url": "https://segmentfault.com/a/1190000022294438",
+        "category": "hotNew"
+      },{
+        "name": "腾讯开发平台",
+        "url": "腾讯开发平台是通过广告和访问量来收费的，你可以写一个好的3D应用，能够挣一些钱",
+        "category": "hotNew"
+      },{
+        "name": "来自原形与原型链的拷问",
+        "url": "https://segmentfault.com/a/1190000022210911",
+        "category": "technology"
+      },{
+        "name": "前端性能优化 24 条建议（2020）",
+        "url": "https://segmentfault.com/a/1190000022205291",
+        "category": "technology"
+      },{
+        "name": "2020年，一文点破跨平台开发框架现状",
+        "url": "https://segmentfault.com/a/1190000022237114",
+        "category": "howNew"
+      },{
+        "name": "前端面试宝典导读",
+        "url": "https://www.nowcoder.com/tutorial/96/4700c6f1f3334c9191a38406002efa65",
+        "category": "technology"
+      },{
+        "name": "Javascript异步编程的4种方法",
+        "url": "http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html",
+        "category": "technology"
+      },{
+        "name": "响应式布局的常用解决方案对比(媒体查询、百分比、rem和vw/vh）",
+        "url": "https://github.com/forthealllight/blog/issues/13",
+        "category": "technology"
+      },{
+        "name": "Flex 布局教程：语法篇",
+        "url": "http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool",
+        "category": "technology"
+      },{
+        "name": "Flex 布局教程：实例篇",
+        "url": "http://www.ruanyifeng.com/blog/2015/07/flex-examples.html",
+        "category": "technology"
+      },{
+        "name": "sounds reasonable",
+        "url": "https://www.dandanzan.com/dianying/50431.html",
+        "category": "technology"
+      },{
+        "name": "async 函数的含义和用法",
+        "url": "http://www.ruanyifeng.com/blog/2015/05/async.html",
+        "category": "technology"
+      },{
+        "name": "WebGL",
+        "url": "http://www.hewebgl.com/article/getarticle/27",
+        "category": "technology"
+      },{
+        "name": "JavaScript 3D library.",
+        "url": "https://github.com/mrdoob/three.js",
+        "category": "technology"
+      },{
+        "name": "单例模式",
+        "url": "https://segmentfault.com/a/1190000017848913",
+        "category": "technology"
+      },{
+        "name": "CommonJS",
+        "url": "https://www.w3cschool.cn/zobyhd/1ldb4ozt.html",
+        "category": "technology"
+      },{
+        "name": "前端高端路线之道",
+        "url": "https://yuchengkai.cn/docs/frontend",
+        "category": "technology"
+      },{
+        "name": "理解CommonJs、AMD、CMD、ES6模块",
+        "url": "https://www.jianshu.com/p/67ce52c93392",
+        "category": "technology"
+      },{
+        "name": "响应式布局的常用解决方案对比(媒体查询、百分比、rem和vw/vh）",
+        "url": "https://github.com/forthealllight/blog/issues/13",
+        "category": "technology"
+      },{
+        "name": "你真的懂Promise吗",
+        "url": "https://segmentfault.com/a/1190000022427416",
+        "category": "technology"
+      },{
+        "name": "web 前端图片懒加载实现原理",
+        "url": "https://juejin.im/entry/594a483061ff4b006c12cea1",
+        "category": "technology"
+      },{
+        "name": "IBM For Learning technology",
+        "url": "https://www.ibm.com/cn-zh?lnk=m",
+        "category": "technology"
+      },{
+        "name": "ng-lazyload-image",
+        "url": "https://www.npmjs.com/package/ng-lazyload-image",
+        "category": "technology"
+      },{
+        "name": "reactJs tutortal",
+        "url": "https://zh-hans.reactjs.org/docs/introducing-jsx.html",
+        "category": "technology"
+      },{
+        "name": "玩转react之reactjs基础语法",
+        "url": "https://www.bilibili.com/video/BV19E41147B8?p=3",
+        "category": "technology"
+      },{
+        "name": "Vue、Angular、React项目开发与深度对比",
+        "url": "https://www.bilibili.com/video/BV1S4411f7wf?from=search&seid=18122567396554241079",
+        "category": "technology"
+      },{
+        "name": "Add tooltip to a div",
+        "url": "https://stackoverflow.com/questions/7117073/add-a-tooltip-to-a-div",
+        "category": "technology"
+      },{
+        "name": "Angular 父组件监听子组件事件--by EventEmitter",
+        "url": "https://www.jianshu.com/p/145a06f05206,https://www.jianshu.com/p/46b27d991982",
+        "category": "technology"
+      },{
+        "name": "AngularComponentInteractions",
+        "url": "https://github.com/tuacy/AngularComponentInteractions",
+        "category": "technology"
+      },{
+        "name": "Typescript for online development",
+        "url": "https://www.typescriptlang.org/play/index.html",
+        "category": "tools"
+      },{
+        "name": "深入理解JS函数中this指针的指向",
+        "url": "https://www.cnblogs.com/zjjDaily/p/9482958.html",
+        "category": "tools"
+      },{
+        "name": "How to create a loading scrren component",
+        "url": "https://nezhar.com/blog/create-a-loading-screen-for-angular-apps/",
+        "category": "technology"
+      },{
+        "name": "学习 RxJS",
+        "url": "https://rxjs-cn.github.io/learn-rxjs-operators/",
+        "category": "technology"
+      }
+      
+  ]

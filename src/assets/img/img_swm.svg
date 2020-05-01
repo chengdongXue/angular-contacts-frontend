@@ -1,0 +1,28 @@
+<svg id="レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #0f3a89;
+      }
+
+      .cls-3 {
+        fill: #d0d6e6;
+      }
+
+      .cls-4 {
+        fill: #8c9abf;
+      }
+    </style>
+  </defs>
+  <title>icon-swm</title>
+  <rect class="cls-1" width="400" height="400"/>
+  <g>
+    <polygon class="cls-2" points="200 237.5 125 237.5 50 312.5 200 312.5 350 162.5 275 162.5 200 237.5"/>
+    <polygon class="cls-3" points="275 162.5 350 87.5 200 87.5 50 237.5 125 237.5 200 162.5 275 162.5"/>
+    <polygon class="cls-4" points="275 162.5 200 162.5 125 237.5 200 237.5 275 162.5"/>
+  </g>
+</svg>

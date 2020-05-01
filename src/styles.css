@@ -1,0 +1,21 @@
+/*如果要显示以前的界面功能，把@import注释掉，把上面显示代码给打开即可*/
+/* Add application styles & imports to this file!
+h1, h2, h3, h4, h5, h6, li, p, span, a, td {
+  word-break: break-all;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+html {
+  margin: 20px;
+  padding:10px;
+  background-color: #e5e5e5;
+} */
+
+/*以下是通讯录模块样式文件*/
+@import url('bootstrap/dist/css/bootstrap.css');
+@import url('assets/css/index.css');
+@import url('assets/css/contrat-common.css');
+
+/* 以下是todoMVC的样式文件*/
+/* @import url('todomvc-common/base.css');
+@import url('todomvc-app-css/index.css'); */

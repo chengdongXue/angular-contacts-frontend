@@ -1,0 +1,10 @@
+<div class="inner">
+  <div class="header-menu-list-left">
+    <ul>
+      <li *ngFor="let link of menu">
+        <a *ngIf="link['open'] === true" appNavigateLink [link]="link.url" [param]="link" [url]="link.url" target="_blank">
+          {{link.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

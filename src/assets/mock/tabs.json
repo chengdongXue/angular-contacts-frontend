@@ -1,0 +1,27 @@
+[
+      {
+        "name": "トップ",
+        "url": "http://nikko.connect.nikko.co.jp",
+        "open": true
+      },
+      {
+        "name": "投資情報",
+        "url": "http://nikko.connect.nikko.co.jp",
+        "open": true
+      },
+      {
+        "name": "エクイティ",
+        "url": "http://nikko.connect.nikko.co.jp",
+        "open": true
+      },
+      {
+        "name": "プライマリー",
+        "url": "http://nikko.connect.nikko.co.jp",
+        "open": true
+      },
+      {
+        "name": "その他",
+        "url": "http://nikko.connect.nikko.co.jp",
+        "open": true
+      }
+    ]

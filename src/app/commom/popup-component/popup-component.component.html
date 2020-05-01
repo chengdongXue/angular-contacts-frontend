@@ -1,0 +1,16 @@
+<div class="bookmark-component">
+  <div class="pop-wrapper">
+      <div class="pop-contents">
+          <div (click)="showOrHidePop(true)">
+              <ng-content></ng-content>
+          </div>
+          <div class="pop-box" *ngIf="showPop" appOutsideClick [closeTarget]="this">
+              <p [innerHTML]="message"></p>
+              <div class="confirm-btn" *ngIf="showBtn">
+                  <button class="but" style="background-color: cadetblue;border: 0px;" (click)="onClickVote()">はい</button>
+                  <button class="btn cancel" style="background-color: #e5e5e5;border: 0px;" (click)="showOrHidePop(false)">いいえ</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+<div class="container">
+  <form class="form-signin" (submit)="submitSign()">
+    <h2 class="form-signin-heading">Please sign in</h2>
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input 
+      type="email" 
+      name="email"
+      [(ngModel)]= "signUpForm.email"
+      class="form-control"
+      required minlength="5" email="true"
+      placeholder="Email address"
+      #email="ngModel">
+      <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+        <div *ngIf="email.errors.required">
+          Email is required.
+        </div>
+        <div *ngIf="email.errors.minlength">
+          Email must be at least 5 characters long.
+        </div>
+        <div *ngIf="email.errors.forbiddenName">
+          Email cannot be Bob.
+        </div>
+      </div>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input
+      type="password" 
+      name="password"
+      [(ngModel)]= "signUpForm.password"
+      class="form-control" 
+      required minlength="10" maxlength="18" 
+      placeholder="Password"
+      #password="ngModel">
+      <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert alert-danger">
+        <div *ngIf="password.errors.required">
+          Password is required.
+        </div>
+        <div *ngIf="password.errors.minlength">
+          Password must be at least 10 characters long.
+        </div>
+        <div *ngIf="password.errors.forbiddenName">
+          Password cannot be Bob.
+        </div>
+      </div>
+    <button
+      class="btn btn-lg btn-primary btn-block" 
+      type="submit">
+      Sign in
+    </button>
+    <div *ngIf="showMessage" class="alert alert-danger">登陆失败</div>
+  </form>
+  <p class="info"><a routerLink="/signup">You don't have an account? Create one here.</a></p>
+</div>

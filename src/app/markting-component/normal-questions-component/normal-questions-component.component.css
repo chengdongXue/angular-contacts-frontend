@@ -1,0 +1,26 @@
+button.btn-favorite-add-on {
+    background: url('../../../assets/img/icon/i-favorite-add_on.svg') center no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+button.btn-favorite-add-off {
+    background: url('../../../assets/img/icon/i-favorite-add_off.svg') center no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+button.btn {
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.favorite-popup-component {
+    display: block;
+    width: 50%;
+}

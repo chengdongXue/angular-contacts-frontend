@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tooltip</title>
+    <style>
+    *[data-tooltip] {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 70px;
+        height: 25px;
+        margin-top: -12.5px;
+        margin-left: -35px;
+        line-height: 25px;
+        background: lightgreen;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    *[data-tooltip]::after {
+        content: attr(data-tooltip);
+
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        width: 170px;
+
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+        background: greenyellow;
+        padding: 2px 2px;
+        border: 1px solid #c0c0c0;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.4);
+
+        pointer-events: none;
+        opacity: 0;
+        -webkit-transition: opacity .15s ease-in-out;
+        -moz-transition: opacity .15s ease-in-out;
+        -ms-transition: opacity .15s ease-in-out;
+        -o-transition: opacity .15s ease-in-out;
+        transition: opacity .15s ease-in-out;
+    }
+
+    *[data-tooltip]:hover::after {
+        opacity: 1;
+    }
+    </style>
+</head>
+
+<body>
+    <div data-tooltip="your tooltip message">ToolTip</div>
+</body>
+
+<script>
+    // 输入数字,输出英语字母
+    // 1000以内随机数
+    var style = document.createElement('style');
+    document.head.appendChild(style);
+    
+    var matchingElements = [];
+    var allElements = document.getElementsByTagName('*');
+    for (var i = 0, n = allElements.length; i < n; i++) {
+        var attr = allElements[i].getAttribute('data-tooltip');
+        if (attr) {
+            allElements[i].addEventListener('mouseover', hoverEvent);
+        }
+    }
+
+    function hoverEvent(event) {
+        event.preventDefault();
+        x = event.x - this.offsetLeft;
+        y = event.y - this.offsetTop;
+        style.innerHTML = '*[data-tooltip]::after { left: ' + x + 'px; top: ' + y + 'px  }'
+    }
+</script>
+</html>

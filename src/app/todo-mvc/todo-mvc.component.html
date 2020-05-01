@@ -1,0 +1,60 @@
+	<section class="todoapp">
+		<header class="header">
+			<h1>todos</h1>
+			<input class="new-todo" placeholder="What needs to be done?" autofocus
+				(keyup.enter)="addItemTodoList($event)">
+		</header>
+		<!-- This section should be hidden by default and shown when there are todos -->
+		<section class="main">
+			<input id="toggle-all" class="toggle-all" 
+				type="checkbox" 
+				[checked]="toggleAll"
+				(change)="toggleAll = $event.target.checked">
+			<label for="toggle-all">Mark all as complete</label>
+			<ul class="todo-list">
+				<!-- These are here just to show the structure of the list items -->
+				<!-- List items should get the class `editing` when editing and `completed` when marked as completed -->
+				<li *ngFor="let item of filterTodoList; let i= index;" [ngClass]="{
+					completed: item.itemChecked, 
+					editing: currentEditing === item
+            	}">
+			<div class="view">
+				<input class="toggle" type="checkbox" [(ngModel)]="item.itemChecked">
+				<label (dblclick)="currentEditing = item">{{item.itemTitle}}</label>
+				<button class="destroy" [attr.id]="item.itemId" (click)="removeItem($event.target.id)"></button>
+			</div>
+			<input class="edit" 
+				[value]="item.itemTitle"
+				(keyup)="cancelHanderEdit($event)"
+				(keyup.enter)="saveEdit(item, $event)"
+				(blur)="saveEdit(item, $event)">
+				</li>
+			</ul>
+		</section>
+
+		<!-- This footer should hidden by default and shown when there are todos -->
+		<footer class="footer">
+			<!-- This should be `0 items left` by default -->
+			<span class="todo-count"><strong>{{remaining}}</strong> item left</span>
+			<!-- Remove this if you don't implement routing -->
+			<ul class="filters">
+				<li>
+					<a [ngClass]="{selected: visible === 'all'}" 
+					(click)="filterItems('all')">All</a>
+				</li>
+				<li>
+					<a [ngClass]="{selected: visible === 'active'}" 
+					(click)="filterItems('active')">Active</a>
+				</li>
+				<li>
+					<a [ngClass]="{selected: visible === 'completed'}" 
+					(click)="filterItems('completed')">Completed</a>
+				</li>
+			</ul>
+			<!-- Hidden if no completed items are left ↓ -->
+			<button class="clear-completed" (click)="cleanCompleted()">Clear completed</button>
+		</footer>
+	</section>
+	<footer class="info">
+		<p>Double-click to edit a todo</p>
+	</footer>

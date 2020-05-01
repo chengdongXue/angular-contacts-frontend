@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#CCCCCC;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="レイヤー_1_1_" class="st0">
+	<g id="surface1" class="st1">
+		<path class="st2" d="M7,4v2h2v4c0,2.5,1.4,4.8,3.4,6c-2,1.2-3.4,3.5-3.4,6v4H7v2h18v-2h-2v-4c0-2.5-1.4-4.8-3.4-6
+			c2-1.2,3.4-3.5,3.4-6V6h2V4H7z M11,6h10v4c0,2.8-2.2,5-5,5s-5-2.2-5-5V6z M12.2,11c0.4,1.7,2,3,3.8,3s3.4-1.3,3.8-3H12.2z M16,17
+			c2.8,0,5,2.2,5,5v4h-1c0-2.2-1.8-4-4-4s-4,1.8-4,4h-1v-4C11,19.2,13.2,17,16,17z"/>
+	</g>
+</g>
+<g id="レイヤー_1のコピー" class="st0">
+	<g id="OZIdfY_1_" class="st1">
+	</g>
+</g>
+<g id="レイヤー_6">
+	<path class="st2" d="M12,23.6l-9.8-1.4c-0.6-0.1-1.1-0.7-1-1.3l1.5-10.1c0.1-0.6,0.7-1.1,1.3-1l9.8,1.4c0.6,0.1,1.1,0.7,1,1.3
+		l-1.5,10.1C13.3,23.3,12.7,23.7,12,23.6z"/>
+	<polygon class="st3" points="6.2,12.7 4.6,13.9 6.6,16.5 4,18.5 5.2,20.1 7.8,18.1 9.7,20.7 11.3,19.5 9.4,16.9 12,15 10.8,13.4 
+		8.2,15.3 	"/>
+</g>
+<g id="レイヤー_5">
+	<path class="st2" d="M29.7,21.6l-12.8,2.9c-0.6,0.1-1.3-0.3-1.4-0.9l-3-13.2c-0.1-0.6,0.3-1.3,0.9-1.4l12.8-2.9
+		C26.8,6,27.5,6.4,27.6,7l3,13.2C30.7,20.8,30.3,21.5,29.7,21.6z"/>
+	<circle class="st4" cx="21.6" cy="15.6" r="4.1"/>
+</g>
+</svg>
